@@ -1,3 +1,7 @@
+//****************************************//
+//   Create Cast Shadow v1.0
+//****************************************//
+
 //Fonction appliquant les effets nécéssaire à la création de l'ombre basée sur la silhouette d'un personnage. Nécéssite le preset "CastShadow_v1.1.ffx"
 //Return = Ø
 function CreateCastShadow(){

@@ -1,3 +1,7 @@
+//****************************************//
+//   Get Layer's Content Lowest Point v1.0
+//****************************************//
+
 //Fonction Ajoutant un paramètre point d'effet animé donnant la position du point le plus bas du calque.
 //endAlert = Boolean - la fonction doit elle annoncer la fin de son execution. | UndoGroup = Boolean - Create an undoGroup 
 //return = Boolean

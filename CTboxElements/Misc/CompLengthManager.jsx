@@ -1,4 +1,10 @@
-/* Fonctions Permettant de régler la durée d'une composition et de tous ses composants*/
+//****************************************//
+//   Compositions Length Manager v1.0
+//****************************************//
+
+////////////////////////////////////////////
+// Fonctions Permettant de régler la durée d'une composition et de tous ses composants
+////////////////////////////////////////////
 
 //Fonction ouvrant l'interface pour choisir la nouvelle durée de la composition.
 //Return = Ø

@@ -1,5 +1,9 @@
+//****************************************//
+//   General Functions v1.0
+//****************************************//
+
 ////////////////////////////////////////////
-//Fonctions Ouvrant des fenêtres pour communiquer avec l'utilisateur.
+// Fonctions ouvrant des fenêtres pour communiquer avec l'utilisateur.
 ////////////////////////////////////////////
 
 //Ouvre une fenêtre d'Erreur empêchant l'utilisateur de continuer à moins qu'il ne valide.

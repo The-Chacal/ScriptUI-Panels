@@ -1,4 +1,10 @@
-/*Script permettant la recherche et la modification d'expressions dans les calques selectionnés ou les propriétés selectionnées.*/
+//****************************************//
+//   Update Expressions v1.0
+//****************************************//
+
+////////////////////////////////////////////
+//Script permettant la recherche et la modification d'expressions dans les calques selectionnés ou les propriétés selectionnées.
+////////////////////////////////////////////
 
 //Fonction créant l'interface pour définir le texte à remplacer et le texte remplaçant.
 //Return = Ø

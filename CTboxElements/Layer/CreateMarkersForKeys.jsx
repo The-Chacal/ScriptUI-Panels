@@ -1,4 +1,10 @@
-/*Fonctions permettant d'ajouter des marqueurs sur un calque pour toute clé d'animation détectée dans ses propriétés.*/
+//****************************************//
+//   Create Markers for Keys v1.0
+//****************************************//
+
+////////////////////////////////////////////
+// Fonctions permettant d'ajouter des marqueurs sur un calque pour toute clé d'animation détectée dans ses propriétés.
+////////////////////////////////////////////
 
 //Fonction permettant de choisir si le script doit détecter les clés des effets, des styles ou des transformations.
 //Return = Ø

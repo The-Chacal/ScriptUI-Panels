@@ -1,4 +1,10 @@
-/*Fonctions permettant de déplacer un calque à la profondeur voulue sans changer son aspect visuel.*/
+//****************************************//
+//   Move Layer in Depth v1.0
+//****************************************//
+
+////////////////////////////////////////////
+// Fonctions permettant de déplacer un calque à la profondeur voulue sans changer son aspect visuel.
+////////////////////////////////////////////
 
 //Fonction ouvrant une fenêtre de dialogue permettant de choisir la valeur en z souhaitée. 
 //Return = Ø

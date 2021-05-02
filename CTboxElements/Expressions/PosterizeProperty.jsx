@@ -1,3 +1,7 @@
+//****************************************//
+//   Posterize Property v1.0
+//****************************************//
+
 //Fonction ajoutant l'expression de posterization temporelle sur les propriétés selectionnées.
 //Return = Ø
 function PosterizeProp(){

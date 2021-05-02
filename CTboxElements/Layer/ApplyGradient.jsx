@@ -1,3 +1,7 @@
+//****************************************//
+//   Apply Gradient v1.0
+//****************************************//
+
 //Fonction appliquant un dégradé en mode incrustation sur le(s) calque(s) selectionné(s). Nécéssite le preset "Gradient_v1.1ffx".
 //Return = Ø
 function ApplyGradient(){

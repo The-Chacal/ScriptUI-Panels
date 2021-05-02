@@ -1,4 +1,10 @@
-/*Fonctions activant de manière récursive la rasteurisation d'une composition et de ses sous-compositions.*/
+//****************************************//
+//   Collapse Transformation Manager v1.0
+//****************************************//
+
+////////////////////////////////////////////
+// Fonctions activant de manière récursive la rasteurisation d'une composition et de ses sous-compositions.
+////////////////////////////////////////////
 
 //Fonction activant ou desactivant la rasteurisation et lançant la fonction récursive
 //Return = Ø

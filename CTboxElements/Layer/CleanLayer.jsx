@@ -1,4 +1,10 @@
-/*Fonctions permettant de supprimer tout ajout de l'utilisateur sur un calque.*/
+//****************************************//
+//  Clean Layer v1.0
+//****************************************//
+
+////////////////////////////////////////////
+//  Fonctions permettant de supprimer tout ajout de l'utilisateur sur un calque.
+////////////////////////////////////////////
 
 //Fonction ouvrant une boite de dialogue permettant de choisir quoi supprimer du calque.
 //ChoiceActive = Boolean - Le script montre les choix de nettoyage | endAlert = Boolean - Le script annonce la fin de son execution | UndoGroup = Boolean - Create an undogroup

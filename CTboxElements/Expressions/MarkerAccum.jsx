@@ -1,3 +1,7 @@
+//****************************************//
+// Marker Accumulator v1.0
+//****************************************//
+
 //Fonction ajoutant une variable qui s'incrémente à chaque marqueur mis sur le calque des propriétés selectionnées.
 //Return = Ø
 function MarkerAccum(){

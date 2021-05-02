@@ -1,4 +1,8 @@
-//Fonction appliquant les effets nécéssaire à la création de l'ombre basée sur la silhouette d'un personnage. Nécéssite le preset "CharacterShadow_v1..1ffx"
+//****************************************//
+//   Apply Silhouette Shadow v1.0
+//****************************************//
+
+//  Fonction appliquant les effets nécéssaire à la création de l'ombre basée sur la silhouette d'un personnage. Nécéssite le preset "CharacterShadow_v1..1ffx"
 //Return = Ø
 function ApplySilhouetteShadow(){
     

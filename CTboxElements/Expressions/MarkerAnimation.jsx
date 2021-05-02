@@ -1,3 +1,7 @@
+//****************************************//
+// Marker Animation v1.0
+//****************************************//
+
 //Fonction ajoutant une expression bloquant l'animation des propriétés selectionnées à chaque marqueur mis sur le calque.
 //Return = Ø
 function MarkerAnimation(){

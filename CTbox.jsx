@@ -8,11 +8,11 @@ if ( CTcheckScriptWriting( this ) )
 {
     //@include "CTboxElements/GeneralFunctions.jsx"
 
-    //@include "CTboxElements/Expressions/MAJexp.jsx";
     //@include "CTboxElements/Expressions/MarkerAccum.jsx";
     //@include "CTboxElements/Expressions/MarkerAnimation.jsx";
     //@include "CTboxElements/Expressions/PosterizeProperty.jsx";
-    
+    //@include "CTboxElements/Expressions/UpdateExp.jsx";
+
     //@include "CTboxElements/Layer/AnimationDetector.jsx";
     //@include "CTboxElements/Layer/ApplyGradient.jsx";
     //@include "CTboxElements/Layer/ApplySilhouetteShadow.jsx";
@@ -25,13 +25,14 @@ if ( CTcheckScriptWriting( this ) )
     
     //@include "CTboxElements/Misc/CollapseTransformationManager.jsx";
     //@include "CTboxElements/Misc/CompLengthManager.jsx";
+
+    CTbuildUI( this );
+    
 }
 
 ////////////////////////////////////////////
 //Construction de l'Interface
 ////////////////////////////////////////////
-
-CTbuildUI( this );
 
 function CTbuildUI( thisObj ){
     
@@ -129,7 +130,7 @@ function CTbuildUI( thisObj ){
         BlocXX.margins = [ 5 , 10 , 5 , 5 ] ;
         BlocXX.alignment = "Right";
         BlocXX.spacing = 2 ;
-            var Version = BlocXX.add( "Statictext" , undefined , "CTBox v6.2.1" );
+            var Version = BlocXX.add( "Statictext" , undefined , "CTBox v1.0.0" );//x.y.z - x > major change | y > addition of a fonctionnality | z > debug 
             var BXBtn1 = BlocXX.add( "IconButton" , undefined , new File( Folder.appPackage.fsName + "/PNG/SP_ArrowNext_Sm_N_D.png") );
             var NotePadOn = false ;
             BXBtn1.size = [ 15 , 15 ];
@@ -181,7 +182,7 @@ function CTcheckScriptWriting( Param1 ) {
     if ( app.preferences.getPrefAsLong("Main Pref Section","Pref_SCRIPTING_FILE_NETWORK_SECURITY") !=1 )
     {
         //Création du panneau indiquant que les scripts ne sont pas autorisés à écrire sur l'ordinateur.
-        var BugPanel = Param1.add( "Panel" , undefined , { en: "Small Problem : " , fr: "PetitProblème :" } );
+        var BugPanel = Param1.add( "Panel" , undefined , { en: "Small Problem : " , fr: "Petit Problème :" } );
         BugPanel.add( "StaticText" , undefined , { en: "You need to authorize the scripts to write files and access network in the Preferences.\n\n   You need to close this, make the change, then relaunch the Script." , fr: "   Vous devez autoriser les scripts à écrire des fichiers et accéder au réseau dans les préférences.\n\n   Fermez, modifiez puis relancez ce script." } , { multiline: true } );
 
         Param1.layout.layout( true );

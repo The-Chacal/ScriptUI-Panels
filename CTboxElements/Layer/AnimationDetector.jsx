@@ -1,4 +1,10 @@
-/*Fonctions permettant d'ajouter un marqueur dès qu'un mouvement est detecté sur le calque.*/
+//****************************************//
+//   Animation Detector v1.0
+//****************************************//
+
+////////////////////////////////////////////
+//  Fonctions permettant d'ajouter un marqueur dès qu'un mouvement est detecté sur le calque.
+////////////////////////////////////////////
 
 //Fonction ajoutant un marqueur sur le calque quand il détecte un changement.
 //Precision = Number - Precision de la Detection | Number - Tolerance de la Detection 

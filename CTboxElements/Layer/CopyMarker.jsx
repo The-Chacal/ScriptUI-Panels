@@ -1,4 +1,10 @@
-/*Fonctions permettant de copier les markers d'un calque sur d'autres.*/
+//****************************************//
+//   Copy Markers v1.0
+//****************************************//
+
+////////////////////////////////////////////
+// Fonctions permettant de copier les markers d'un calque sur d'autres.
+////////////////////////////////////////////
 
 //Fonction créant l'interface de choix des calques à traiter.
 //Return = Ø
